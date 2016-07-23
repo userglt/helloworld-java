@@ -8,7 +8,7 @@ notifications:
 deploy:
   provider: releases
   api-key:
-    secure: "dHqpRezumya8uqAT4QXu"
+    secure: "5ge3qpgsVqbqyogCqqBF "
       file:
     build/jar/HelloWorld.jar
   skip_cleanup: true
