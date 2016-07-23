@@ -4,13 +4,3 @@ script: ant clean && ant compile && ant jar
 
 notifications:
   email: false
-
-deploy:
-  provider: releases
-  api-key:
-    secure: "5ge3qpgsVqbqyogCqqBF "
-      file:
-    build/jar/HelloWorld.jar
-  skip_cleanup: true
-  on:
-    tags: true
