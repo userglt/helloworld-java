@@ -1,6 +1,6 @@
 language: java
 
-script: ant clean && ant compile && ant jar
+script: ant clean && ant compile && ant jar 
 
 notifications:
   email: false
