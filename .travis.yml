@@ -1,0 +1,16 @@
+language: java
+
+script: ant clean && ant compile && ant jar
+
+notifications:
+  email: false
+
+deploy:
+  provider: releases
+  api-key:
+    secure: "dHqpRezumya8uqAT4QXu"
+      file:
+    build/jar/HelloWorld.jar
+  skip_cleanup: true
+  on:
+    tags: true
