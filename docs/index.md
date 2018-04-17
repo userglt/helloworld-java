@@ -2,5 +2,5 @@
 
 This is a test
 
-![Test](test.md)
+[Test](test.md)
 
